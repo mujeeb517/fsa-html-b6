@@ -1,0 +1,72 @@
+<!-- CSS -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        /* internal styles */
+        label {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <form novalidate>
+        <h1>Form</h1>
+        <div>
+            <!-- inline styles -->
+            <label for="txtFName">First Name</label>
+            <input class="text-box" required minlength="3" maxlength="10" id="txtFName" type="text"
+                placeholder="First Name" />
+        </div>
+        <div>
+            <label style="color:yellow" for="txtLName">Last Name</label>
+            <input class="text-box" id="txtLName" type="text" placeholder="Last Name" />
+        </div>
+        <div>
+            <label>Course</label>
+            <select>
+                <option>--Select--</option>
+                <optgroup label="Backend">
+                    <option value="2">Java</option>
+                    <option value="3">Python</option>
+                </optgroup>
+                <optgroup label="Frontend">
+                    <option value="1">Javascript</option>
+                    <option value="4">MERN</option>
+                </optgroup>
+
+            </select>
+        </div>
+
+        <div>
+            <label>Gender</label>
+            Male: <input type="radio" name="gender" value="1" />
+            Female: <input type="radio" name="gender" value="2" />
+        </div>
+
+        <div>
+            <label>Courses</label>
+            Javascript: <input type="checkbox" />
+            Java: <input type="checkbox" />
+            Python: <input type="checkbox" />
+            MERN: <input type="checkbox" />
+        </div>
+
+        <div>
+            <input type="date" />
+            <input type="range" min="0" value="50" max="100" />
+            <progress value="50" max="100" />
+            <input type="submit" value="Save" />
+            <button type="submit">Save</button>
+        </div>
+    </form>
+</body>
+
+</html>
