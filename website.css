@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin: 4px;
+}
+
+ul li a {
+    padding: 5px;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin: 10px 0 0 5px;
+}
+
+.nav {
+    right:0;
+    display: inline;
+    float: right;
+}
+
+.line {
+    width: 100%;
+}
