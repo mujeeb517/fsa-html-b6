@@ -34,11 +34,47 @@ ul li a {
 }
 
 .nav {
-    right:0;
+    right: 0;
     display: inline;
     float: right;
 }
 
 .line {
     width: 100%;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.hero-section {
+    padding-top: 10px;
+    background-image: url('img/bg2.webp');
+    height: 400px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.caption {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #999999;
+    margin-top: 5px;
+}
+
+.btn {
+    border: 0;
+    padding: 8px;
+    background-color: #369;
+    color: #fff;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.search-box{
+    height: 25px;
+    width:450px;
 }
